@@ -13,6 +13,7 @@
 		F474104B292657F8006AA34C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4741049292657F8006AA34C /* Main.storyboard */; };
 		F474104D292657F9006AA34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F474104C292657F9006AA34C /* Assets.xcassets */; };
 		F4741050292657F9006AA34C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F474104E292657F9006AA34C /* LaunchScreen.storyboard */; };
+		F4741058292666E8006AA34C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4741057292666E8006AA34C /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F474104C292657F9006AA34C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F474104F292657F9006AA34C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4741051292657F9006AA34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4741057292666E8006AA34C /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F4741043292657F8006AA34C /* AppDelegate.swift */,
 				F4741045292657F8006AA34C /* SceneDelegate.swift */,
 				F4741047292657F8006AA34C /* ViewController.swift */,
+				F4741057292666E8006AA34C /* Queue.swift */,
 				F4741049292657F8006AA34C /* Main.storyboard */,
 				F474104C292657F9006AA34C /* Assets.xcassets */,
 				F474104E292657F9006AA34C /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				F4741048292657F8006AA34C /* ViewController.swift in Sources */,
 				F4741044292657F8006AA34C /* AppDelegate.swift in Sources */,
 				F4741046292657F8006AA34C /* SceneDelegate.swift in Sources */,
+				F4741058292666E8006AA34C /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
