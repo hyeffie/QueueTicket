@@ -40,6 +40,7 @@ class ViewController: UIViewController {
     gaugeView.progress = queue.ratio
     addAwaiterButton.isEnabled = queue.canEnqueue
     confirmEntranceButton.isEnabled = queue.canDequeue
+    countLabel.textColor = queue.canEnqueue ? .black : .red
   }
   
 }
